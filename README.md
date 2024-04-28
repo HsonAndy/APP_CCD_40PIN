@@ -1,0 +1,2 @@
+# APP_CCD_40PIN
+文信40PIN檢測機

@@ -15,6 +15,7 @@ using AxAxOvkImage;
 using SQLUI;
 using System.IO;
 using AxOvkImage;
+using MyOffice;
 namespace 文信40PIN_CCD
 {
     public partial class Form1 : Form
@@ -1014,8 +1015,9 @@ namespace 文信40PIN_CCD
         }
         private void plC_UI_Init1_UI_Finished_Event()
         {
-            //this.PLC_Device_相機序號.Value = 1711170006;
-            this.PLC_Device_相機序號.Value = 1710250008;
+
+            this.PLC_Device_相機序號.Value = 1711170006;
+           // this.PLC_Device_相機序號.Value = 1710250008;
             if (!PLC_Device_相機已建立.Bool) PLC_Device_相機初始化.Bool = true;
             if (!PLC_Device_CCD01相機開啟.Bool) PLC_Device_CCD01相機已連線.Bool = true;
             if (!PLC_Device_CCD02相機開啟.Bool) PLC_Device_CCD02相機已連線.Bool = true;
@@ -1167,6 +1169,7 @@ namespace 文信40PIN_CCD
 
         private void button_CCD01_01_影像儲存_OK瀏覽_Click_1(object sender, EventArgs e)
         {
+           
             if (folderBrowserDialog_選擇路徑.ShowDialog(this) == DialogResult.OK)
             {
                 plC_WordBox_CCD01_01_OK存圖路徑.Text = folderBrowserDialog_選擇路徑.SelectedPath;
@@ -1684,6 +1687,9 @@ namespace 文信40PIN_CCD
             }
             return 儲存位置;
         }
+
+
+
         public string CCD02_04_NG儲存檔案檢查(String FilePlace, String OK_NG, int MaxNumFile)
         {
 
@@ -1736,6 +1742,9 @@ namespace 文信40PIN_CCD
 
             return FLAG;
         }
+
+
+
         public bool 儲存檔案_往後移位(String FilePlace, String FileName, int MaxNumFile)
         {
             bool FLAG = false;
@@ -1769,6 +1778,77 @@ namespace 文信40PIN_CCD
                 }
             }
             return FLAG;
+        }
+
+        PLC_Device PLC_Device_編號 = new PLC_Device("F16000");
+        public static List<object[]> list_value01 = new List<object[]>();
+        public enum enum_CCD01_excle
+        {
+            編號,
+            圓直徑,
+            檢測結果,
+            紀錄日期時間,
+        }
+        public enum enum_CCD02_excle
+        {
+            編號,
+            方直徑,
+            檢測結果,
+            紀錄日期時間,
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+            PLC_Device_編號.Value = PLC_Device_編號.Value + 1;
+            test();
+        }
+        private void button存檔_Click(object sender, EventArgs e)
+        {
+            flag_save = true;
+        }
+        bool flag_add;
+        bool flag_save;
+        public void test()
+        {
+            object[] value = new object[new enum_CCD01_excle().GetLength()];
+            
+            value[(int)enum_CCD01_excle.編號] = PLC_Device_編號.Value.ToString();
+            value[(int)enum_CCD01_excle.圓直徑] = "2";
+            value[(int)enum_CCD01_excle.檢測結果] = "3";
+            value[(int)enum_CCD01_excle.紀錄日期時間] = "4";
+
+
+            list_value01.Add(value);
+
+            DataTable dataTable_CCD01 = list_value01.ToDataTable(new enum_CCD01_excle());
+            dataTable_CCD01.TableName = "CCD01";
+
+
+            List<object[]> list_value02 = new List<object[]>();
+            value = new object[new enum_CCD02_excle().GetLength()];
+            value[(int)enum_CCD02_excle.編號] = "1";
+            value[(int)enum_CCD02_excle.方直徑] = "2";
+            value[(int)enum_CCD02_excle.檢測結果] = "3";
+            value[(int)enum_CCD02_excle.紀錄日期時間] = "4";
+
+
+            list_value02.Add(value);
+
+
+
+            DataTable dataTable_CCD02 = list_value02.ToDataTable(new enum_CCD02_excle());
+            dataTable_CCD02.TableName = "CCD02";
+
+            List<DataTable> dataTables = new List<DataTable>();
+
+            dataTables.Add(dataTable_CCD01);
+            dataTables.Add(dataTable_CCD02);
+
+            byte[] bytes = MyOffice.ExcelClass.NPOI_GetBytes(dataTables);
+            bytes.SaveFileStream(@"C:\Users\Administrator\Desktop\123.xls");
+
+
+
         }
     }
 }

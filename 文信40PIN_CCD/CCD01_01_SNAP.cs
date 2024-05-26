@@ -118,7 +118,8 @@ namespace 文信40PIN_CCD
         {
             if (!this.plC_MindVision_Camera_UI_CCD01.StreamIsSuspend)
             {
-                this.CCD觸發(enum_CCD觸發.CCD01, true);
+                plC_MindVision_Camera_UI_CCD01.SnapAndWait();
+                //this.CCD觸發(enum_CCD觸發.CCD01, true);
                 cnt++;
             }
         }
@@ -126,7 +127,8 @@ namespace 文信40PIN_CCD
         {
             if (this.plC_MindVision_Camera_UI_CCD01.StreamIsSuspend)
             {
-                this.CCD觸發(enum_CCD觸發.CCD01, false);
+
+                //this.CCD觸發(enum_CCD觸發.CCD01, false);
                 cnt++;
             }
         }

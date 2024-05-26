@@ -61,154 +61,184 @@
     <Reference Include="AxAltairUDrv, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxAltairUDrv.dll</HintPath>
+      <HintPath>..\0.DLL\AxAltairUDrv.dll</HintPath>
     </Reference>
     <Reference Include="AxAltairUDrvAsm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxAltairUDrvAsm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxAltairUDrvAsm4.5.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkBase, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxOvkBase.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkBase.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkBaseAsm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxOvkBaseAsm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkBaseAsm4.5.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkBlob, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxOvkBlob.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkBlob.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkBlobAsm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxOvkBlobAsm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkBlobAsm4.5.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkImage, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxOvkImage.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkImage.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkImageAsm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxOvkImageAsm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkImageAsm4.5.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkMsr, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxOvkMsr.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkMsr.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkMsrAsm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxOvkMsrAsm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkMsrAsm4.5.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkPat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxOvkPat.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkPat.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkPat2, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>False</EmbedInteropTypes>
-      <HintPath>bin\Release\AxOvkPat2.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkPat2.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkPat2Asm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxOvkPat2Asm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkPat2Asm4.5.dll</HintPath>
     </Reference>
     <Reference Include="AxOvkPatAsm4.5, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\AxOvkPatAsm4.5.dll</HintPath>
+      <HintPath>..\0.DLL\AxOvkPatAsm4.5.dll</HintPath>
     </Reference>
     <Reference Include="Basic, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\Basic.dll</HintPath>
+      <HintPath>..\0.DLL\Basic.dll</HintPath>
     </Reference>
     <Reference Include="CallBackUI, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\CallBackUI.dll</HintPath>
+      <HintPath>..\0.DLL\CallBackUI.dll</HintPath>
+    </Reference>
+    <Reference Include="CSkin">
+      <HintPath>..\0.DLL\CSkin.dll</HintPath>
+    </Reference>
+    <Reference Include="DeltaMotor485">
+      <HintPath>..\0.DLL\DeltaMotor485.dll</HintPath>
     </Reference>
     <Reference Include="DrawingClass, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\DrawingClass.dll</HintPath>
+      <HintPath>..\0.DLL\DrawingClass.dll</HintPath>
     </Reference>
     <Reference Include="FontAwesome.Sharp, Version=5.15.4.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\FontAwesome.Sharp.dll</HintPath>
+      <HintPath>..\0.DLL\FontAwesome.Sharp.dll</HintPath>
     </Reference>
     <Reference Include="HCGUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\HCGUI.dll</HintPath>
+      <HintPath>..\0.DLL\HCGUI.dll</HintPath>
     </Reference>
     <Reference Include="Interop.SpeechLib, Version=5.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <EmbedInteropTypes>True</EmbedInteropTypes>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\Interop.SpeechLib.dll</HintPath>
+      <HintPath>..\0.DLL\Interop.SpeechLib.dll</HintPath>
     </Reference>
     <Reference Include="LadderUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\LadderUI.dll</HintPath>
+      <HintPath>..\0.DLL\LadderUI.dll</HintPath>
     </Reference>
     <Reference Include="LeadShineUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\LeadShineUI.dll</HintPath>
+      <HintPath>..\0.DLL\LeadShineUI.dll</HintPath>
     </Reference>
     <Reference Include="LicenseLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\LicenseLib.dll</HintPath>
+      <HintPath>..\0.DLL\LicenseLib.dll</HintPath>
     </Reference>
     <Reference Include="LightControlUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\LightControlUI.dll</HintPath>
+      <HintPath>..\0.DLL\LightControlUI.dll</HintPath>
     </Reference>
     <Reference Include="MeasureSystemFunction, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\MeasureSystemFunction.dll</HintPath>
+      <HintPath>..\0.DLL\MeasureSystemFunction.dll</HintPath>
     </Reference>
     <Reference Include="MeasureSystemUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\MeasureSystemUI.dll</HintPath>
+      <HintPath>..\0.DLL\MeasureSystemUI.dll</HintPath>
     </Reference>
     <Reference Include="MVSDK, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\MVSDK.dll</HintPath>
+      <HintPath>..\0.DLL\MVSDK.dll</HintPath>
     </Reference>
     <Reference Include="MVSDKUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Release\MVSDKUI.dll</HintPath>
+      <HintPath>..\0.DLL\MVSDKUI.dll</HintPath>
     </Reference>
-    <Reference Include="MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+    <Reference Include="MyOffice">
+      <HintPath>..\0.DLL\MyOffice.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\MySql.Data.dll</HintPath>
+      <HintPath>..\0.DLL\MySql.Data.dll</HintPath>
     </Reference>
     <Reference Include="MySqlBackup, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\MySqlBackup.dll</HintPath>
+      <HintPath>..\0.DLL\MySqlBackup.dll</HintPath>
     </Reference>
     <Reference Include="MyUI, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\MyUI.dll</HintPath>
+      <HintPath>..\0.DLL\MyUI.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\0.DLL\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI">
+      <HintPath>..\0.DLL\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>..\0.DLL\NPOI.OOXML.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>..\0.DLL\NPOI.OpenXml4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI.OpenXmlFormats">
+      <HintPath>..\0.DLL\NPOI.OpenXmlFormats.dll</HintPath>
     </Reference>
     <Reference Include="PC_Control, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\PC_Control.dll</HintPath>
+      <HintPath>..\0.DLL\PC_Control.dll</HintPath>
+    </Reference>
+    <Reference Include="PopupControl">
+      <HintPath>..\0.DLL\PopupControl.dll</HintPath>
     </Reference>
     <Reference Include="PortControlUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\PortControlUI.dll</HintPath>
+      <HintPath>..\0.DLL\PortControlUI.dll</HintPath>
     </Reference>
     <Reference Include="SLDUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\SLDUI.dll</HintPath>
+      <HintPath>..\0.DLL\SLDUI.dll</HintPath>
     </Reference>
     <Reference Include="SQLUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\林佳40PIN程式\文信40PIN_CCD_0307\文信40PIN_CCD\bin\Release\SQLUI.dll</HintPath>
+      <HintPath>..\0.DLL\SQLUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SunnyUI">
+      <HintPath>..\0.DLL\SunnyUI.dll</HintPath>
+    </Reference>
+    <Reference Include="SunnyUI.Common">
+      <HintPath>..\0.DLL\SunnyUI.Common.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">

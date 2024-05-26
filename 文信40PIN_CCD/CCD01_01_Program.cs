@@ -24,6 +24,7 @@ namespace 文信40PIN_CCD
         {
             //sub_Program_PLC_CCD01_Main_全檢測一次();
             //sub_Program_PLC_CCD01_Main_全Snap一次();
+            //test();
             this.CCD01_01_儲存圖片();
             this.sub_Program_CCD01_01_SNAP();
             this.sub_Program_CCD01_01_Main_取像並檢驗();
@@ -97,26 +98,26 @@ namespace 文信40PIN_CCD
             PLC_Device_CCD01_SNAP_電子快門.Value = PLC_Device_CCD01_01_SNAP_電子快門.Value;
             PLC_Device_CCD01_SNAP_視訊增益.Value = PLC_Device_CCD01_01_SNAP_視訊增益.Value;
             PLC_Device_CCD01_SNAP_銳利度.Value = PLC_Device_CCD01_01_SNAP_銳利度.Value;
-            if (PLC_Device_CCD01_01_SNAP_光源亮度_紅正照.Value != 0)
-            {
-                this.光源控制(enum_光源.CCD01_紅正照, (byte)this.PLC_Device_CCD01_01_SNAP_光源亮度_紅正照.Value);
-                this.光源控制(enum_光源.CCD01_紅正照, true);
-            }
-            else if (this.PLC_Device_CCD01_01_SNAP_光源亮度_紅正照.Value == 0)
-            {
-                this.光源控制(enum_光源.CCD01_紅正照, (byte)0);
-                this.光源控制(enum_光源.CCD01_紅正照, false);
-            }
-            if (PLC_Device_CCD01_01_SNAP_光源亮度_白正照.Value != 0)
-            {
-                this.光源控制(enum_光源.CCD01_白正照, (byte)this.PLC_Device_CCD01_01_SNAP_光源亮度_白正照.Value);
-                this.光源控制(enum_光源.CCD01_白正照, true);
-            }
-            else if (this.PLC_Device_CCD01_01_SNAP_光源亮度_白正照.Value == 0)
-            {
-                this.光源控制(enum_光源.CCD01_白正照, (byte)0);
-                this.光源控制(enum_光源.CCD01_白正照, false);
-            }
+            //if (PLC_Device_CCD01_01_SNAP_光源亮度_紅正照.Value != 0)
+            //{
+            //    this.光源控制(enum_光源.CCD01_紅正照, (byte)this.PLC_Device_CCD01_01_SNAP_光源亮度_紅正照.Value);
+            //    this.光源控制(enum_光源.CCD01_紅正照, true);
+            //}
+            //else if (this.PLC_Device_CCD01_01_SNAP_光源亮度_紅正照.Value == 0)
+            //{
+            //    this.光源控制(enum_光源.CCD01_紅正照, (byte)0);
+            //    this.光源控制(enum_光源.CCD01_紅正照, false);
+            //}
+            //if (PLC_Device_CCD01_01_SNAP_光源亮度_白正照.Value != 0)
+            //{
+            //    this.光源控制(enum_光源.CCD01_白正照, (byte)this.PLC_Device_CCD01_01_SNAP_光源亮度_白正照.Value);
+            //    this.光源控制(enum_光源.CCD01_白正照, true);
+            //}
+            //else if (this.PLC_Device_CCD01_01_SNAP_光源亮度_白正照.Value == 0)
+            //{
+            //    this.光源控制(enum_光源.CCD01_白正照, (byte)0);
+            //    this.光源控制(enum_光源.CCD01_白正照, false);
+            //}
             cnt++;
         }
         void cnt_Program_CCD01_01_SNAP_開始取像(ref int cnt)
